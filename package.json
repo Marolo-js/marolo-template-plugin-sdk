@@ -1,0 +1,32 @@
+{
+  "name": "marolo-template-plugin-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "examples": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only ./examples/index.example.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marolo-js/marolo-template-plugin-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Marolo-js/marolo-template-plugin-sdk/issues"
+  },
+  "homepage": "https://github.com/Marolo-js/marolo-template-plugin-sdk#readme",
+  "dependencies": {
+    "marolo.js": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3"
+  }
+}
